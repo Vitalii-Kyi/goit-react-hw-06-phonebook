@@ -1,7 +1,6 @@
-import { HIPhoneOutline } from '@icongo/hi';
+import { HIPhoneOutline } from '@icongo/hi/lib/HIPhoneOutline';
 import { useDispatch } from 'react-redux';
 import { deleteContact } from 'redux/contactsSlice';
-// import { deleteContact } from 'redux/actions';
 
 export const ContactItem = ({ contact }) => {
   const { id, name, number } = contact;
