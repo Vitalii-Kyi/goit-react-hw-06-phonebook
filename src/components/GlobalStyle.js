@@ -40,7 +40,7 @@ export const Box = styled.div`
   margin: 24px auto;
   padding: 36px;
   width: 480px;
-  height: 100%;
+  height: fit-content;
   border: 1px solid #bcbcbc;
   border-radius: 4px;
   background-color: #f8f8f8;
@@ -48,6 +48,7 @@ export const Box = styled.div`
 
   h1,
   h2 {
+    max-width: max-content;
     padding-left: 8px;
     padding-right: 8px;
     margin: auto;

@@ -15,7 +15,7 @@ export const ContactList = () => {
     <List>
       {visibleContacts.map(contact => (
         <li key={contact.id}>
-          <ContactItem details={contact} />
+          <ContactItem contact={contact} />
         </li>
       ))}
     </List>

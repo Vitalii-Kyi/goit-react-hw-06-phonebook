@@ -9,7 +9,7 @@ export const FormThumb = styled(Form)`
   margin: auto;
   border: 1px solid #bcbcbc;
   border-radius: 4px;
-  padding: 20px 56px;
+  padding: 20px 28px;
   margin-bottom: 28px;
 
   button {
@@ -47,6 +47,8 @@ export const FormThumb = styled(Form)`
       padding: 2px 12px;
       border: 1px solid #bcbcbc;
       border-radius: 4px;
+      outline: none;
+      text-align: center;
     }
   }
 `;

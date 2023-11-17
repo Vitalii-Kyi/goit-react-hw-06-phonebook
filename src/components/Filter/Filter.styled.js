@@ -9,6 +9,7 @@ export const Search = styled.div`
     border: 1px solid #bcbcbc;
     border-radius: 4px;
     text-align: center;
+    outline: none;
   }
 
   ::placeholder {

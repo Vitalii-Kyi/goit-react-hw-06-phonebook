@@ -4,7 +4,7 @@ export const List = styled.ul`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap 12px;
+  gap: 12px;
   margin: auto;
   font-weight: 500;
 
@@ -14,10 +14,9 @@ export const List = styled.ul`
     align-items: center;
     color: #000000;
     padding: 2px;
-
+    padding-left: 8px;
     
     span {
-      
       font-size: 16px;
       font-weight: 600;
       margin-left: 12px;
